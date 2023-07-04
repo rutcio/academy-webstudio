@@ -1,0 +1,47 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__team {
+        &_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            border-radius: 0rem 0rem 0.25rem 0.25rem;
+            background-color: $color-white;
+            box-shadow: $box-shadow-team;
+
+            &-img {
+                width: 100%;
+                border-radius: 0.25rem 0.25rem 0 0;
+            }
+
+            &-title {
+                margin-top: $m-1-5;
+
+                font-size: $font-18;
+                font-weight: $font-w-500;
+                letter-spacing: 0.03rem;
+                
+                color: $color-black;
+            }
+
+            &-text {
+                margin: $m-0-5 0 $m-2 0;
+                font-size: $font-14;
+                font-weight: $font-w-400;
+                color: $color-gray;
+
+                letter-spacing: 0.05rem;
+            }
+        }
+    }
+}
