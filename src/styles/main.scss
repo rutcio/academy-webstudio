@@ -1,12 +1,16 @@
 @import './reset';
 @import './variables';
 @import './mixins';
+@import './svg';
 
 @import './btn';
 @import './cards';
 
 @import './header';
 @import './navbar';
+
+@import './sections';
+
 
 body {
   font-family: $font-family-roboto;
