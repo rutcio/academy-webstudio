@@ -1,6 +1,5 @@
 @import './reset';
 @import './variables';
-@import './mixins';
 @import './svg';
 
 @import './btn';
@@ -10,8 +9,17 @@
 @import './navbar';
 
 @import './sections';
-
+@import './footer';
 
 body {
   font-family: $font-family-roboto;
+}
+
+.bg-gray {
+  background-color: $color-btn-gray;
+  padding-bottom: $p-2;
+}
+
+.white {
+  color: $color-white;
 }
